@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ParcelAttributes_84 = function(feature, resolution){
+var style_BallaratNorthPSPExpandedArea_73 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_ParcelAttributes_84 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(196,60,57,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,128,0,1.0)', lineDash: [16.34,3.268,6.536,3.268,6.536,3.268], lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(255,168,76,0.2)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

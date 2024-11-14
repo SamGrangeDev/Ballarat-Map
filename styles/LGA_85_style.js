@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_BallaratNorthWesternGrowthArea_67 = function(feature, resolution){
+var style_LGA_85 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_BallaratNorthWesternGrowthArea_67 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(183,0,255,1.0)', lineDash: [16.34,3.268,6.536,3.268,6.536,3.268], lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(183,148,255,0.25098039215686274)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(225,0,4,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 4.787999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
